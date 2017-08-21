@@ -13,15 +13,19 @@ According to a survey conducted by Cutter Consortium there are 4 results of the 
 2. Assume that the terms software life-cycle and software development cycle refer to two completely
 different kinds of things. How would you describe the differences between the two? This should require
 research beyond the discussion in the text.
-The difference between the two would be where the process ends. Software life-cycle would be the life of a software application. Beginning with it's creation and use until when it is no longer used or when it has been significantly changed/updated. In comparison the software development cycle, is the process of developing software starting from gathering requirements. From there, moving to actual development then testing and presenting to the client who requested the creation of this software. After this, the software will move into the software life-cycle.
+The difference between the two would be where the process ends. Software life-cycle would be the life of a software application. Beginning with it's creation and use until when it is no longer used or when it has been significantly changed/updated. 
+In comparison the software development cycle, is the process of developing software starting from gathering requirements. From there, moving to actual development then testing and presenting to the client who requested the creation of this software. After this, the software will move into the software life-cycle.
 
 3. Give a detailed account of the practice of perfective maintenance. Give a detailed account of the practice
 of adaptive maintenance. \Detailed account" requires a narrative in sufficient detail to illustrate the
 dierences between these two types of maintenance. You may use hypothetical accounts, accounts
 from the text, or accounts based on your experience.
-Perfective maintenance are changes that the client thinks will improve the effectiveness of the product. I have seen this happen at my job at Aflac. When applications are being developed, sometimes the business unit will make suggestions to developers on the product to make it more effective. For example, there is currently software being developed to handle policies and the clients have made changes during the development process. These changes made the process to issue and terminate policies more efficient and require less steps.
+Perfective maintenance are changes that the client thinks will improve the effectiveness of the product. I have seen this happen at my job at Aflac.
+When applications are being developed, sometimes the business unit will make suggestions to developers on the product to make it more effective. For example, there is currently software being developed to handle policies and the clients have made changes during the development process. 
+These changes made the process to issue and terminate policies more efficient and require less steps.
 
-In adaptive maintenance, changes are made in response to changes in the environment in which the product operates. I've also seen an example of this at Aflac. For instance, there are different testing environments and the lower environment has previously been used for development. However, now this is not possible anymore so changes have had to be made to items currently in development because they have to be designed in different environments that may not have the same capabilities as they one they used previously.
+In adaptive maintenance, changes are made in response to changes in the environment in which the product operates. I've also seen an example of this at Aflac. For instance, there are different testing environments and the lower environment has previously been used for development. 
+However, now this is not possible anymore so changes have had to be made to items currently in development because they have to be designed in different environments that may not have the same capabilities as they one they used previously.
 
 4. Explain: \The dierence between hardware and software is that, as hardware ages it breaks more
 and more and eventually has to be thrown away, while software as it ages gets better and better and
@@ -43,19 +47,30 @@ This tells me that in software engineering there is often an overlap of these di
 7. Defend this statement: structured programming techniques form an essential part of object oriented
 programming techniques. Note that the text does not argue that object oriented programming has
 completely replaced structured programming.
-Object oriented programming helps with clarity and making code reusable within a program. This typically can make code more readable and versatile. Structured programming is more logical and can make programs easier to understand and change. By using the object oriented approach, the ideas of structured programming are still being used. For instance, in making a game if you wanted a functionality that will allow a player to pick up an item then a function for that can be used in that item class. This way, any player you create will be able to invoke that function to pick up an item. Likewise, the functions are readable and logical so that they are easy to understand and update as needed. 
+Object oriented programming helps with clarity and making code reusable within a program. This typically can make code more readable and versatile. Structured programming is more logical and can make programs easier to understand and change. 
+By using the object oriented approach, the ideas of structured programming are still being used. For instance, in making a game if you wanted a functionality that will allow a player to pick up an item then a function for that can be used in that item class. 
+This way, any player you create will be able to invoke that function to pick up an item. Likewise, the functions are readable and logical so that they are easy to understand and update as needed. 
 
 8. In designing a piece of software, is it more important for the developer to frequently interact with the
 client or with the users? Why or why not?
-It is more important for the developer to frequently interact with the client. This is because they are essentially working with the client to design an application to suit the users' needs. It's not the responsibility of the developer to respond to the needs of the users because it is assumed that the client would have this in mind when creating their requirements. Even if that is not the case, that burden should not be on the developers it should be on the client.
+It is more important for the developer to frequently interact with the client. This is because they are essentially working with the client to design an application to suit the users' needs. 
+It's not the responsibility of the developer to respond to the needs of the users because it is assumed that the client would have this in mind when creating their requirements. Even if that is not the case, that burden should not be on the developers it should be on the client.
 
 9. Point 8 of the Software Code of Ethics cited in the text states in part: \Software engineers shall
 participate in lifelong learning regarding the practice of their profession . . . ". Identify one activity
 that you could engage in on a weekly, monthly, quarterly, or yearly basis, for the remainder of your
 life, that would promote this kind of learning.
-I am in a sorority here at Columbus State and this kind of learning applies to me. Being in a sorority is a learning experience and we never stop learning. There are always training classes and workshops where we learn more about our sorority and our Founders. We also learn about officer positions and what is required of them. Our leaders also provide us training on our offices so that we can be the best at our positions. When National Documents and/or procedures are updated we have to be trained and informed about that also. We will never know all there is to know about our sorority so we have to keep learning for the rest of our lives. 
+I am in a sorority here at Columbus State and this kind of learning applies to me. Being in a sorority is a learning experience and we never stop learning. There are always training classes and workshops where we learn more about our sorority and our Founders. 
+We also learn about officer positions and what is required of them. Our leaders also provide us training on our offices so that we can be the best at our positions. 
+When National Documents and/or procedures are updated we have to be trained and informed about that also. We will never know all there is to know about our sorority so we have to keep learning for the rest of our lives. 
 
 10. Read \The Cathedral and the Bazaar" by Eric Steven Raymond in the pdf directory. Write a one
 paragraph appreciation of this essay. (A paragraph consists of multiple sentences, perhaps between
 five and ten.)
-I thought that The Cathedral and the Bazaar by Eric Steven Raymond was a very good read. At first I found the length daunting but it was surprisingly quite interesting. I agreed with most of the points Raymond made and I was intrigued about learning what he went through while working on open source development. I don't know much about Linux and other open source software but I have used Linux before. I never really thought about how getting contributions from users and/or testers could be so helpful in situations like that. I can particularly relate to the section about being lazy because I am a very lazy person. I believe in good planning up front and using all available resources to be able finish a task in the shortest amount of time and the most efficient way. I also could relate to the tip about planning to throw one [solution] away. There have been many assignments I've started and got to the point where I just had to start all over again instead of picking through my code line by line to fix bugs. Finally, his very first point about every good work of software starts by scratching a developer's personal itch really made sense to me. Typically, the best programming I have done has been for something that I actually wanted to find a solution for as opposed to just being given an assignment. 
+I thought that The Cathedral and the Bazaar by Eric Steven Raymond was a very good read. At first I found the length daunting but it was surprisingly quite interesting. 
+I agreed with most of the points Raymond made and I was intrigued about learning what he went through while working on open source development. 
+I don't know much about Linux and other open source software but I have used Linux before. I never really thought about how getting contributions from users and/or testers could be so helpful in situations like that. 
+I can particularly relate to the section about being lazy because I am a very lazy person. I believe in good planning up front and using all available resources to be able finish a task in the shortest amount of time and the most efficient way. 
+I also could relate to the tip about planning to throw one [solution] away. There have been many assignments I've started and got to the point where I just had to start all over again instead of picking through my code line by line to fix bugs. 
+Finally, his very first point about every good work of software starts by scratching a developer's personal itch really made sense to me. 
+Typically, the best programming I have done has been for something that I actually wanted to find a solution for as opposed to just being given an assignment. 
