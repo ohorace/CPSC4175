@@ -1,5 +1,0 @@
-analysis
-design
-implementation
-testing
-userdocs
