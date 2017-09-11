@@ -11,18 +11,18 @@ A control class models algorithms and computations.
 Enter a customer username and password.  
   
 3. Write a successful scenario pertaining to your project.  
-1. Customer 1 enters username and password to log into online banking system.  
-2. The login control searches for the entered username within the list of banking system users.  
-3. When found, the login control matches the password entered to the password on file for said user.  
-4. If the login is successful, the login control alerts the account management system that a user has been verified.  
-5. The account management system displays account information as well as options for account transactions.  
+: - Customer 1 enters username and password to log into online banking system.  
+  - The login control searches for the entered username within the list of banking system users.  
+  - When found, the login control matches the password entered to the password on file for said user.  
+  - If the login is successful, the login control alerts the account management system that a user has been verified.  
+  - The account management system displays account information as well as options for account transactions.  
   
 4. Write an unsuccessful scenario pertaining to your project.  
-1. Customer 1 enters username and password to log into online banking system.  
-2. The login control searches for the entered username within the list of banking system users.  
-3. When found, the login control matches the password entered to the password on file for said user.  
-4. If the password does not match the password stored in the banking system’s database, then the user must re-enter their username and password.  
-5. If, after a third unsuccessful attempt, the username and password cannot be verified then the user is prevented from making another login attempt.  
+: - Customer 1 enters username and password to log into online banking system.  
+  - The login control searches for the entered username within the list of banking system users.  
+  - When found, the login control matches the password entered to the password on file for said user.  
+  - If the password does not match the password stored in the banking systemâ€™s database, then the user must re-enter their username and password.  
+  - If, after a third unsuccessful attempt, the username and password cannot be verified then the user is prevented from making another login attempt.  
   
 5. Using your answers to the three previous questions, use the noun extraction method to extract the
 classes. If practicable, identify the classes you extract as entity, boundary, and control classes. If all
