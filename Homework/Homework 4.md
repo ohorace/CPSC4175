@@ -33,3 +33,5 @@ Nouns: customer, username, password, control, list, attempts
 Entity classes: Customer  
 Boundary: Control  
 Control: Attempts  
+
+Diagrams for Homework 4: CRC, Class Diagram, Sequence Diagram, Communication Diagram, and Statechart
