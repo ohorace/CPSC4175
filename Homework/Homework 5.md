@@ -17,20 +17,20 @@ This is not asking for a design, but just identification of variables you might 
 in the design you would place them.  
 General design  
 Input Variables:  
-firstName ñ String  
-lastName ñ String 
-birthday ñ String   
-studentID ñ int  
+firstName ‚Äì String  
+lastName ‚Äì String 
+birthday ‚Äì String   
+studentID ‚Äì int  
   
 Processing variables:  
-GPA ñ double  
-coursesTaken ñ String[]  
-major ñ String[]  
-coursesRequired ñ String[]  
+GPA ‚Äì double  
+coursesTaken ‚Äì String[]  
+major ‚Äì String[]  
+coursesRequired ‚Äì String[]  
   
 Output variables:  
-expectedGraduation ñ String  
-metRequirements ñ Boolean  
+expectedGraduation ‚Äì String  
+metRequirements ‚Äì Boolean  
   
 4. Perform a transaction analysis for the graduation requirements problem you used for the previous
 question. Your answer should be a sequential list of subprocedures you would design to solve the
@@ -63,7 +63,7 @@ on the nature of the software under development, so there is no one correct answ
 Here is the question: Consider the software project you are working on for this class, and briefly state
 which view you think is more appropriate to your work. Justify your answer by making a reasonable
 argument as to why you answered this question the way you did.  
-I think for our project, online banking, the approach of design being an iterative process within itself is more fitting. In our case, working on the design alone is almost a standalone phase of the project. Within the design process itself we ended up changing our entire project solely based on how we were designing our product. Although I understand where design fits in the grand scheme of software engineering, by itself itís an entire process. In our case, our two design weeks have resulted in significant changes each time. Each of those changes led to us restarting our design process, or nearly restarting it, in each of our design weeks. 
+I think for our project, online banking, the approach of design being an iterative process within itself is more fitting. In our case, working on the design alone is almost a standalone phase of the project. Within the design process itself we ended up changing our entire project solely based on how we were designing our product. Although I understand where design fits in the grand scheme of software engineering, by itself it‚Äôs an entire process. In our case, our two design weeks have resulted in significant changes each time. Each of those changes led to us restarting our design process, or nearly restarting it, in each of our design weeks. 
   
 7. What is the difference between testing an implementation and testing a design? Write a procedure
 for testing the design of the student graduation requirements problem in the questions above. Define
@@ -72,7 +72,7 @@ object oriented design.
 Testing the design is verifying that the specifications have been translated corrected into the design. This kind of testing also makes sure the actual design is correct. Implementation testing is testing the actual code for the product making sure that it performs as expected.  
   
 Testing design:  
-Link the studentís major to the classes required for that major  
+Link the student‚Äôs major to the classes required for that major  
 Be able to compare the courses the student has taken to the classes required  
 Be able to determine the graduation date based on the number of courses left  
 Determine if the requirements have been met to graduate  
@@ -90,9 +90,9 @@ The cyclomatic complexity of a design is the number of binary decisions plus 1 o
 9. Discuss one CASE tool you have previously used. If you have never used a CASE tool, find an
 open source CASE tool using an internet search, download and install it, complete a \Hello World"
 application, and discuss your experience.  
-I downloaded a free trial of MagicDraw. Thereís a learning curve and it was kind of heard to use at first. I have never used any software like this before so I had to get used to navigating within the application. This software had some very basic features to help create diagrams. Although I couldnít see myself using this kind of software on a regular basis, I do see its usefulness. Itís interesting because at my job I know a few developers and I havenít heard them mention tools that they use for designs. I want to learn what kind of CASE tools are used by application developers at the company I work for.  
+I downloaded a free trial of MagicDraw. There‚Äôs a learning curve and it was kind of heard to use at first. I have never used any software like this before so I had to get used to navigating within the application. This software had some very basic features to help create diagrams. Although I couldn‚Äôt see myself using this kind of software on a regular basis, I do see its usefulness. It‚Äôs interesting because at my job I know a few developers and I haven‚Äôt heard them mention tools that they use for designs. I want to learn what kind of CASE tools are used by application developers at the company I work for.  
   
 10. Read the article \the-right-stu_.pdf" in the pdf directory. (You may find a better copy online.) Write
 a one paragraph appreciation of the article.  
-I thought this article was very well written. It is so interesting that the code used to launch space shuttles only had 1 error in the last three versions. The average programs that length would have 5000 errors. It is so impressive for software, something man made, to be that close to being perfect. However, as noted in the article, the software had to be. Bill Pate was quoted as saying in the article that ì[if] the software isnít perfect, some of the people we got to meetings with might dieî. Iím sure that is a tremendous amount of pressure on developers to know that could be responsible for the death of crew members if something goes wrong.  Likewise, this article emphasized the importance of the software, not the hardware. The software is what ensures the proper operation of these shuttles in space.  
+I thought this article was very well written. It is so interesting that the code used to launch space shuttles only had 1 error in the last three versions. The average programs that length would have 5000 errors. It is so impressive for software, something man made, to be that close to being perfect. However, as noted in the article, the software had to be. Bill Pate was quoted as saying in the article that ‚Äú[if] the software isn‚Äôt perfect, some of the people we go to meetings with might die‚Äù. I‚Äôm sure that is a tremendous amount of pressure on developers to know that they could be responsible for the death of crew members if something goes wrong.  Likewise, this article emphasized the importance of the software, not the hardware. The software is what ensures the proper operation of these shuttles in space.  
 
