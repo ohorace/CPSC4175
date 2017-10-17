@@ -8,11 +8,11 @@ The content of this chapter should be approached as if the Unified Process is no
 In an iterative-and-incremental methodology, each workflow consists of a number of steps that are repeatedly performed until the development team has an accurate UML diagram. This is similar to the spiral approach because it involves steps that are repeated multiple times for the same end goal. However, I would say a difference is that in spiral, the phases themselves are repeated. In iterative and incremental design, the steps within each flow are repeated as many times as necessary before progressing to the next step.  
   
 **3. In class, we are using an iterative process with four phases: analysis, design, implementation, and testing. The book discusses the five core workflows of the Unified Process. List the five core workflows, and for each, give a brief summary of the workflow.**  
-Requirements Workflow - determining the needs of the client by mainly understanding where the software is to be operated  
-Analysis Workflow - analyze and refine the requirements to be able to know what is necessary to develop a software product correctly  
-Design Workflow - refine the artifacts of the analysis workflow until it is in a form that can be implemented  
-Implementation Workflow - implement the software
-Test Workflow - testing by the implementers as well as quality assurance  
+*Requirements Workflow* - determining the needs of the client by mainly understanding where the software is to be operated  
+*Analysis Workflow* - analyze and refine the requirements to be able to know what is necessary to develop a software product correctly  
+*Design Workflow* - refine the artifacts of the analysis workflow until it is in a form that can be implemented  
+*Implementation Workflow* - implementing the software  
+*Test Workflow* - testing by the implementers as well as quality assurance  
   
 **4. What is the relationship between the software project management plan and the software development process? Do you think that a software project management plan can replace an explicit software development process? Why or why not?**  
 The software project management plan is a document that shows the separate workflows of the development process. It shows what is involved in each task as well as the deadlines. So essentially it is a map of the software development process. I actually think it could replace the software development process if it is detailed enough. If every single step, along with deadlines, is reasonably mapped out, then yes it could replace it. It would just take a lot of research and data gathering to be able to do this.    
