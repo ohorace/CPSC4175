@@ -6,6 +6,7 @@ two types and give two examples of each.**
 The two types of planning are: (1) the planning that proceeds throughout the project and (2) the intense planning that must be carried out once the specifications are complete.  
 Examples of 1: creating a plan for how to complete a project, determining resources needed for a project  
 Examples of 2: estimating cost, estimating a timeline for project completion  
+
 **2. What does figure 9.1 tell you about the range of cost estimates during the various workfl ows of a
 software project? Be specific as to the percentage of uncertainty at each of the four work flows shown
 on the X axis of the chart.**  
@@ -23,7 +24,8 @@ problematic nature of that reason.**
 *Creation of source code is only a small part of the total software development effort* - the lines of code is really only a smaller part of the bigger picture. The number of lines does not accurately reflect the amount of work that went into an overall effort.  
 *Implementing the same product in two different languages results in versions with different numbers of lines of code* - this is especially true because in some languages I've used, the same code ended up being significantly shorter or longer. For example, writing a program to sort strings in Java can be done with a lot fewer lines than an assembler program.  
 *It is often unclear exactly how to count lines of code* - what exactly is defined as a line of code? Is a single curly brace on a line by itself counted as a line of code? If so, that can easily affect the total and would vary based on the programmer. Some like to have the curly braces on a line by themselves and some like to put it at the end of the preceding line.  
-*The number of lines of code in the final product can only be determined when the product is finished* - estimating the cost of a product based on the estimate of the lines of code is not reliable and it is discouraged. There is no way to know the final count of lines until the project is finished. This estimation can, and probably will, change several times during the course of development.  
+*The number of lines of code in the final product can only be determined when the product is finished* - estimating the cost of a product based on the estimate of the lines of code is not reliable and it is discouraged. There is no way to know the final count of lines until the project is finished. This estimation can, and probably will, change several times during the course of development. 
+
 **5. The function point metric is widely used. Do some independent research on function point analysis/-
 function point estimation and write a brief summary of your research. In particular, Does there seem
 to be a widely accepted formula for function point estimation?**  
