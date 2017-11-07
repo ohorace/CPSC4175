@@ -31,9 +31,10 @@ The problem here is trying to minimize interactions between components. Composit
 Input is a source listing. Output is a formatted documentation document. You documentation
 should document all variables by giving the visibility, type, name, and initial value, and all
 functions giving the visibility, type, name, and input parameters. You are allowed to require your
-source listings to use a particular formatting, similar to Javadoc.**  
-        import java.io.*;  
-        //begin pseudocode
+source listings to use a particular formatting, similar to Javadoc.**   
+        
+	import java.io.*;
+	//begin pseudocode
 	
  	throw IOException
 	private String methodHeader;
