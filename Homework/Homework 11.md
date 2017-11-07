@@ -5,7 +5,7 @@
 it to your grandmother or a younger brother or sister.**  
 In stepwise refinement, decisions are postponed as late as possible. In other words, someone/a team procrastinates on making a decision in order to focus on other things that are more important.
 
-***2. Consider topdown development, stepwise refinement. We have now encountered both of these. Tradi-
+**2. Consider topdown development, stepwise refinement. We have now encountered both of these. Tradi-
 tionally, software engineering was taught developing programs using the topdown, stepwise refinement
 paradigm. (OOAD has replaced this paradigm.) You have probably never developed a program using
 that paradigm, but think about the implications of that technique versus OOAD. Discuss several of
@@ -32,8 +32,9 @@ Input is a source listing. Output is a formatted documentation document. You doc
 should document all variables by giving the visibility, type, name, and initial value, and all
 functions giving the visibility, type, name, and input parameters. You are allowed to require your
 source listings to use a particular formatting, similar to Javadoc.**  
-     import java.io.*;  
-     //begin pseudocode
+        import java.io.*;  
+        //begin pseudocode
+	
  	throw IOException
 	private String methodHeader;
 	private String description;
@@ -64,7 +65,9 @@ and comment on it line by line.**
 
      # build an executable named myprog from myprog.c //simple makefile example   
         all: myprog.c   
-                gcc -g -Wall -o myprog myprog.c//compiles program and generates debugging information using -g, -wall enables compiler's warning messages, -o writes to an output file  
-
+	        //compiles program and generates debugging information using -g   
+		//-wall enables compiler's warning messages, -o writes to an output file  
+		
+                gcc -g -Wall -o myprog myprog.c
       clean:  
             $(RM) myprog//action to remove file
