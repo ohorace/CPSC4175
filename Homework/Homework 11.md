@@ -64,7 +64,7 @@ may depend on program.h. Make files are almost universally used. Search for a br
 and comment on it line by line.**  
 
      # build an executable named myprog from myprog.c //simple makefile example   
-        all: myprog.c
+      all: myprog.c
 		//compiles program and generates debugging information using -g
 		//-wall enables compiler's warning messages, -o writes to an output file  
 		gcc -g -Wall -o myprog myprog.c
